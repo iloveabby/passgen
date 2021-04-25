@@ -5,7 +5,7 @@ MANNUAL:
 	______________________________________________________________
 	|USE:When you run the program it without any aurguments it   |
 	|prints the password out to stdin. But if you specify a      |
-	|file it will request a service after the file.              |
+	|file it will request a service after the file.                |
 	|EXAMPLE: passgen output.txt github                          |
 	|____________________________________________________________|
 AUTHOR:
