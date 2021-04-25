@@ -1,20 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/*
+I was having issues with the random divsion system. This is commented out because of that
 int divisonNum(){
 	int returnVal;
 	for(int i = 0; i < 500; i++){
 		returnVal = rand() % 4 + 2;
 	}
 	return returnVal;
-}
+}*/
 
 int main(int argc,char *argv[]){
-	int divide; // num to divide number by;
+	// int divide; This is subject to the same issue as before 
 	int one;
 	int two;
 	int three;
-	if(argc == 2){
+	if(argc == 2){ 
 		puts("You didn't specify a service name");
 		exit(1);
 	}
